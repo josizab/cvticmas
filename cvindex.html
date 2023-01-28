@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="cv.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/e6be7fd88b.js" crossorigin="anonymous"></script>
+	<title>Curriculum-Vitae</title>
+</head>
+<body>
+	<header>
+		<img class="foto" src="https://randomuser.me/api/portraits/women/63.jpg" width="250px" height="250px"> 
+		<h1>Aylin Hane</h1>
+		<nav>
+			<ul>
+				<li><a href = "#info_p"> Mi información</a> </li>
+				<li><a href = "#experiencia_labo"> Experiencia</a></li>
+				<li><a href="#habilidades"> Habilidades</a></li>
+				<li><a href="#contacto"> Contacto</a></li>
+			</ul>
+	</header>
+
+	
+	<section>
+		<h2 id="info_p"><i class="fa-solid fa-address-card"></i> Información Personal</h2>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3113819.6494612508!2d-84.91299708876839!3d40.345906280187165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8836e97ab54d8ec1%3A0xe5cd64399c9fd916!2sOhio%2C%20EE.%20UU.!5e0!3m2!1ses!2sar!4v1673723601942!5m2!1ses!2sar" width="700" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	<ul>
+		<li id = "docu"></li>
+		<li id = "tele"></li>
+		<li id = "dire"></li>
+		<li id = "city"></li>
+		<li id = "estado"></li>
+		<li id = "nacionalidad"></li>
+	</ul>
+
+		
+		<script type="text/javascript">
+		var aylin = '{"dni": 86878770,"nombre": "Aylin Hane","tel": "(517)172-3375","direccion":"4375 Cormier Circle","ciudad": "Adamston","estado": "Ohio", "nacionalidad": "Estados Unidos"}';
+		var obj = JSON. parse(aylin);
+	
+  	
+  		document.getElementById("docu").innerHTML= "DNI: " + obj.dni;
+  		document.getElementById("tele").innerHTML= "Teléfono: " + obj.tel;
+  		document.getElementById("dire").innerHTML= "Dirección: " + obj.direccion;
+  		document.getElementById("city").innerHTML= "Ciudad: " + obj.ciudad;
+  		document.getElementById("estado").innerHTML= "Estado: " + obj.estado;
+  		document.getElementById("nacionalidad").innerHTML= "Nacionalidad: " + obj.nacionalidad;
+		</script>
+		
+	 </section>
+
+	<section>
+		<h2 id="experiencia_labo"><i class="fa-solid fa-briefcase"></i> Experiencia Laboral</h2>
+		<ul>
+			<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce in mi odio. Suspendisse vitae gravida risus. Aenean libero ante, bibendum sit amet nisi sed, tincidunt sagittis lorem. Sed tempor nibh id magna tincidunt interdum. Integer sed bibendum sem. Integer auctor justo at luctus semper. Aliquam consequat a mauris sit amet congue. Ut eu vestibulum risus, a gravida lacus.</li>
+			<li>Curabitur mauris enim, feugiat non dictum in, euismod vitae est. Etiam sit amet purus neque. Nullam in tempor felis. Aliquam erat volutpat. Sed vehicula ipsum a turpis rutrum porta. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque magna nibh, interdum id rutrum eget, pulvinar eu quam. Etiam volutpat consectetur augue, nec aliquet erat. Nullam ultrices nisi vel risus pellentesque sodales. Morbi mattis accumsan augue non efficitur. Nam non porta purus. Ut fermentum molestie libero, nec dapibus sapien posuere quis.</li>
+			<li>Ut nec tincidunt eros, a dictum mauris. Etiam ut purus eu felis sodales mollis. Quisque convallis sem quam, non ornare libero convallis quis. Cras in velit a dui consectetur interdum. Morbi bibendum venenatis risus. Ut et convallis orci. Duis auctor dolor ut lectus pharetra, nec pretium felis tempor. Etiam id dui aliquam, ullamcorper sapien ac, lacinia lorem. Nunc pellentesque blandit neque sit amet vulputate. Proin faucibus ex vel dui malesuada vestibulum.</li>
+			<li>Aenean elementum at elit sit amet accumsan. Maecenas lacinia eu nisi eu placerat. Duis aliquet cursus nibh. Suspendisse eu sapien a nulla pellentesque tempus. In finibus condimentum sem eu bibendum. Ut porttitor massa id feugiat blandit. Phasellus nisi massa, facilisis dictum orci quis, dictum efficitur orci. Suspendisse potenti. Sed vitae condimentum ipsum. Aliquam congue orci nec nunc imperdiet iaculis. Phasellus sollicitudin id ante at pulvinar.</li>
+		</ul>
+	</section>
+	<section>
+		<h2 id="habilidades"><i class="fa-solid fa-square-check"></i> Habilidades</h2>
+		<ul>
+			<li>Nam id tortor commodo, rutrum lectus non, maximus justo. Nunc at ex lacus. Nam vel dui laoreet, pellentesque mauris sed, interdum mauris. Nunc in leo ut velit molestie elementum tempus a nisl. Pellentesque vel magna non massa molestie efficitur. Sed sit amet urna accumsan, sodales turpis sed, blandit sapien. Sed sollicitudin quam nec nisi rhoncus, a blandit ipsum tincidunt. Phasellus quis lorem ex.</li>
+			<li>Nullam facilisis dui et nibh posuere, vitae scelerisque est malesuada. Proin vitae nibh dictum, tincidunt nisl vitae, rutrum risus. In nec turpis sed sem bibendum iaculis in id magna. Vivamus venenatis sapien nec ligula lobortis, ac hendrerit turpis mollis. Duis eu interdum est. Aliquam ac quam tortor. In justo massa, ornare ac pellentesque sit amet, tempor ut felis. Nullam sit amet dolor non sem lobortis bibendum.</li>
+			<li>Fusce varius pretium ligula, eget fermentum ligula congue eget. Integer sit amet erat luctus, vestibulum est eget, sollicitudin leo. Morbi ac finibus lectus, vel gravida nibh. Proin fermentum sagittis odio, at porttitor magna. Phasellus risus ex, eleifend in dui ut, ullamcorper interdum ipsum. Curabitur condimentum maximus tellus et molestie. Phasellus vel porta orci, sit amet vehicula ipsum. Curabitur vehicula nisi sit amet erat porttitor, ullamcorper tristique purus pulvinar. Nullam congue nibh magna, id mollis magna egestas nec. Nam pellentesque varius tincidunt. Aenean consequat imperdiet magna, vel iaculis est efficitur sit amet. Nulla porttitor purus quam, quis lobortis tellus blandit id. Suspendisse velit elit, auctor vel sapien eu, commodo lobortis nisl. Aliquam vehicula scelerisque ornare. Morbi vitae mollis tortor.</li>
+		</ul>
+	</section>
+
+	<footer>
+		<h2 id="contacto"><i class="fa-solid fa-user-tie"></i>  Contacto</h2>
+	
+		<button > <a id="mail"href="mailto:someone@example.com"> <img src= "https://i.pinimg.com/originals/1b/22/fd/1b22fd858e93265a3a2fa2060cfc1219.jpg" width="100px" height="100px"></a></button>
+		<button id="llamada"><a href="tel:+5171723375"> <img src ="https://static.vecteezy.com/system/resources/previews/005/747/456/non_2x/phone-call-icon-symbol-in-trendy-flat-style-call-icon-sign-for-app-logo-web-call-icon-flat-illustration-telephone-symbol-vector.jpg" width="100px" height="100px"></a></button>
+
+	</footer>
+</body>
+</html>

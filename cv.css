@@ -1,0 +1,64 @@
+html{margin: 40px 40px 40px 40px;
+  background-color: black;
+font-family: 'Roboto Slab', serif;}
+
+
+body{background: linear-gradient(#FEFEFE,#888888);
+padding: 25px;
+font-size: 20px;}
+
+}
+header{
+  font-weight: bold;
+  padding: 25px;
+}
+
+h1 {font-size: 100px;
+    font-style: italic;
+    padding-left: 60px;
+    display: inline;
+}
+ 
+nav li{display: inline;
+  margin: 0 0 0 90px;
+font-size: 30px;
+text-align: center;
+color: black;}
+nav li:hover{font-size: 40px;}
+
+h2{font-style: italic;
+text-decoration: underline;}
+
+section ul{padding: 20px;
+}
+
+section ul li{padding: 10px;
+}
+
+
+iframe{margin: auto;
+  float: right;
+}
+
+
+footer{text-align: center;
+  font-weight: bold;
+  padding: 15px;
+}
+button{border-width: 2px;
+border-color: black;
+border-radius: 8px;
+margin: 25px;
+display: inline;
+}
+
+@media only screen and (max-width: 830px){
+  .foto{width: auto;}
+  iframe{width: auto;}
+  h1{font-size: 40px;
+    text-align: left;
+    display: block;}
+  nav li{display: inline-block;
+        font-size: 30px;
+        text-align: left;
+        margin: unset;}
